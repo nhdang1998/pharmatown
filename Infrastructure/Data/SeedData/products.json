@@ -1,0 +1,458 @@
+[
+  {
+    "Name": "Siro điều trị ho, viêm phế quản, viêm phổi Bảo Thanh",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 1.41,
+    "PictureUrl": "images/products/P01.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Thực phẩm bảo vệ sức khỏe bổ phế Siro Bảo Thanh Trẻ Em",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 1.69,
+    "PictureUrl": "images/products/P02.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Bảo Thanh",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 6.94,
+    "PictureUrl": "images/products/P03.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Viên ngậm Bảo Thanh không đường",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 8.68,
+    "PictureUrl": "images/products/P04.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Redoxon Double Eff Tab",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 1.95,
+    "PictureUrl": "images/products/P05.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Thuốc tránh thai hàng ngày Mercilon",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 3.52,
+    "PictureUrl": "images/products/P06.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "ZinC 10mg",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 3.86,
+    "PictureUrl": "images/products/P07.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Trà gừng dùng cho các trường hợp cảm lạnh, nôn mửa tiêu chảy Thái Dương",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 0.72,
+    "PictureUrl": "images/products/P08.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Thuốc xịt mũi điều trị các chứng viêm mũi, viêm xoang Thái Dương",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 2.73,
+    "PictureUrl": "images/products/P09.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Boganic Forte Traphaco",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Price": 4.47,
+    "PictureUrl": "images/products/P10.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 14
+  },
+  {
+    "Name": "Voltaren 50mg",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 15.1,
+    "PictureUrl": "images/products/P11.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 13
+  },
+  {
+    "Name": "Voltaren 100mg Suppo. B/5",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 3.47,
+    "PictureUrl": "images/products/P12.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 13
+  },
+  {
+    "Name": "Stiros 125mg",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 2.49,
+    "PictureUrl": "images/products/P13.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Dầu dưỡng giúp mờ sẹo & giảm rạn da Bio-Oil",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 7.81,
+    "PictureUrl": "images/products/P14.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Gel chăm sóc da khô Bio-Oil Dry Skin",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 4.77,
+    "PictureUrl": "images/products/P15.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Dầu dưỡng nuôi dưỡng và bảo vệ tóc Mega NNO Hair Serum",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 9.98,
+    "PictureUrl": "images/products/P16.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Dầu gội dược liệu sạch gàu suôn mềm hương hoa Thái Dương 3",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 1.95,
+    "PictureUrl": "images/products/P17.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Xịt tóc dược liệu Thái Dương",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 6.51,
+    "PictureUrl": "images/products/P18.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Bột uống giúp giảm đau, hạ sốt Tydol Sachet Powder",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 0.74,
+    "PictureUrl": "images/products/P19.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Ameflu Multi-Symptom Relief",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 5.32,
+    "PictureUrl": "images/products/P20.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Acetab 650mg",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 2.13,
+    "PictureUrl": "images/products/P21.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Nolvadex-D 20mg",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 6.12,
+    "PictureUrl": "images/products/P22.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Agiosmin 450mg/50mg",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 6.29,
+    "PictureUrl": "images/products/P23.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Losec Mups 20mg",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 3.15,
+    "PictureUrl": "images/products/P24.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Ursoliv 250",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 2.11,
+    "PictureUrl": "images/products/P25.jpg",
+    "ProductTypeId": 7,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Tenormin Tab 50mg",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 5.12,
+    "PictureUrl": "images/products/P26.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Zestoretic 20mg",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 1.26,
+    "PictureUrl": "images/products/P27.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Aginolol 50mg",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 6.12,
+    "PictureUrl": "images/products/P28.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Dầu cá Natures Care Omega 3 Fish Oil 1000mg",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Price": 19.31,
+    "PictureUrl": "images/products/P29.jpg",
+    "ProductTypeId": 8,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Thuốc xịt điều trị viêm mũi dị ứng cho người lớn & trẻ em trên 2 tuổi Nasonex 0.05%",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 9.29,
+    "PictureUrl": "images/products/P30.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Rhinocort Aqua 64mcg",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 8.17,
+    "PictureUrl": "images/products/P31.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Allermine 4mg",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 1.95,
+    "PictureUrl": "images/products/P32.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Agimfast 60",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 0.65,
+    "PictureUrl": "images/products/P33.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Cetimed 10mg",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 1.76,
+    "PictureUrl": "images/products/P34.jpg",
+    "ProductTypeId": 9,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "Onglyza Tab 5mg",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 7.11,
+    "PictureUrl": "images/products/P35.jpg",
+    "ProductTypeId": 10,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Komboglyze Xr 5mg/1000mg",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Price": 11.23,
+    "PictureUrl": "images/products/P36.jpg",
+    "ProductTypeId": 10,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Genshu",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 23.87,
+    "PictureUrl": "images/products/P37.jpg",
+    "ProductTypeId": 11,
+    "ProductBrandId": 15
+  },
+  {
+    "Name": "Tadimax",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 6.73,
+    "PictureUrl": "images/products/P38.jpg",
+    "ProductTypeId": 11,
+    "ProductBrandId": 17
+  },
+  {
+    "Name": "Trosicam 15mg",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 5.13,
+    "PictureUrl": "images/products/P39.jpg",
+    "ProductTypeId": 12,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "Meditrol",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 4.12,
+    "PictureUrl": "images/products/P40.jpg",
+    "ProductTypeId": 12,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Cao lỏng Bổ Tỳ Dưỡng Cốt Thái Dương",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 2.34,
+    "PictureUrl": "images/products/P41.jpg",
+    "ProductTypeId": 12,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Thực phẩm chức năng Viên vai gáy Thái Dương",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 1.74,
+    "PictureUrl": "images/products/P42.jpg",
+    "ProductTypeId": 12,
+    "ProductBrandId": 11
+  },
+  {
+    "Name": "Viên sủi bổ sung vitamin C, D và kẽm Redoxon",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 2.6,
+    "PictureUrl": "images/products/P43.jpg",
+    "ProductTypeId": 13,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Viên sủi bổ sung vitamin và khoáng chất Berocca Performance Mango Multivitamin",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 3.34,
+    "PictureUrl": "images/products/P44.jpg",
+    "ProductTypeId": 13,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Viên bổ sung vitamin cho phụ nữ có thai Mega We Care Fenza",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 11.94,
+    "PictureUrl": "images/products/P45.jpg",
+    "ProductTypeId": 13,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Thực phẩm bảo vệ sức khỏe bổ sung DHA, hỗ trợ phát triển não bộ và thị giác Mega DHA-125",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 4.99,
+    "PictureUrl": "images/products/P46.jpg",
+    "ProductTypeId": 13,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Seroquel XR 200mg",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 5.12,
+    "PictureUrl": "images/products/P47.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Agietoxib 90mg",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 2.15,
+    "PictureUrl": "images/products/P48.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Thực phẩm bảo vệ sức khỏe giúp bổ não, bổ mắt Hotchland – Optimum Omega 3.6.9",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 13.37,
+    "PictureUrl": "images/products/P49.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 10
+  },
+  {
+    "Name": "Halofar – Pharmedic 2mg",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 4.15,
+    "PictureUrl": "images/products/P50.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 12
+  },
+  {
+    "Name": "Hoạt Huyết Dưỡng Não",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 5.16,
+    "PictureUrl": "images/products/P51.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 15
+  },
+  {
+    "Name": "Cebraton",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 6.94,
+    "PictureUrl": "images/products/P52.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 15
+  },
+  {
+    "Name": "Dolfenal",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 5.86,
+    "PictureUrl": "images/products/P53.jpg",
+    "ProductTypeId": 14,
+    "ProductBrandId": 16
+  },
+  {
+    "Name": "Kem đặc trị viêm da Atopiclair",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 10.85,
+    "PictureUrl": "images/products/P54.jpg",
+    "ProductTypeId": 15,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Ketovazol 2%",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 0.48,
+    "PictureUrl": "images/products/P55.jpg",
+    "ProductTypeId": 15,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Thuốc mỡ tra mắt Mediclovir 3 %",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 2.6,
+    "PictureUrl": "images/products/P56.jpg",
+    "ProductTypeId": 15,
+    "ProductBrandId": 12
+  },
+  {
+    "Name": "Calcrem",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 0.85,
+    "PictureUrl": "images/products/P57.jpg",
+    "ProductTypeId": 15,
+    "ProductBrandId": 16
+  }
+]

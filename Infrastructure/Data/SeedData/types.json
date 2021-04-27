@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Name": "Thuốc cảm lạnh, ho"
+  },
+  {
+    "Id": 2,
+    "Name": "Thuốc không kê đơn"
+  },
+  {
+    "Id": 3,
+    "Name": "Thuốc kháng viêm"
+  },
+  {
+    "Id": 4,
+    "Name": "Chăm sóc cá nhân"
+  },
+  {
+    "Id": 5,
+    "Name": "Giảm đau, hạ sốt"
+  },
+  {
+    "Id": 6,
+    "Name": "Thuốc khác"
+  },
+  {
+    "Id": 7,
+    "Name": "Thuốc tiêu hoá"
+  },
+  {
+    "Id": 8,
+    "Name": "Thuốc tim mạch, huyết áp"
+  },
+  {
+    "Id": 9,
+    "Name": "Thuốc kháng dị ứng"
+  },
+  {
+    "Id": 10,
+    "Name": "Thuốc chữa tiểu đường"
+  },
+  {
+    "Id": 11,
+    "Name": "Thuốc cho nam giới"
+  },
+  {
+    "Id": 12,
+    "Name": "Thuốc xương, khớp"
+  },
+  {
+    "Id": 13,
+    "Name": "Thực phẩm chức năng"
+  },
+  {
+    "Id": 14,
+    "Name": "Thuốc thần kinh"
+  },
+  {
+    "Id": 15,
+    "Name": "Thuốc da liễu"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "Id": 1,
+    "Name": "Bảo Thanh"
+  },
+  {
+    "Id": 2,
+    "Name": "Bayer Healthcare"
+  },
+  {
+    "Id": 3,
+    "Name": "Binex"
+  },
+  {
+    "Id": 4,
+    "Name": "Bio Oil"
+  },
+  {
+    "Id": 5,
+    "Name": "Ameflu"
+  },
+  {
+    "Id": 6,
+    "Name": "Astra Zeneca"
+  },
+  {
+    "Id": 7,
+    "Name": "Atopiclair"
+  },
+  {
+    "Id": 8,
+    "Name": "AGIPHARM"
+  },
+  {
+    "Id": 9,
+    "Name": "Alpex Pharma SA"
+  },
+  {
+    "Id": 10,
+    "Name": "Mega Lifescience"
+  },
+  {
+    "Id": 11,
+    "Name": "Sao Thái Dương"
+  },
+  {
+    "Id": 12,
+    "Name": "Pharmedic"
+  },
+  {
+    "Id": 13,
+    "Name": "Voltaren"
+  },
+  {
+    "Id": 14,
+    "Name": "Traphaco"
+  },
+  {
+    "Id": 15,
+    "Name": "Sagopha"
+  },
+  {
+    "Id": 16,
+    "Name": "Satyam"
+  },
+  {
+    "Id": 17,
+    "Name": "Danapha"
+  }
+]
