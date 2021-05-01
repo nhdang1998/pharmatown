@@ -33,6 +33,14 @@ namespace API
 
             //Use swagger service from SwagerServiceExtension
             services.AddSwaggerDocumentation();
+
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,12 +54,15 @@ namespace API
             //redirect to our error controller and pass in the status code and in our error controller
             app.UseStatusCodePagesWithReExecute("/error/{0}");
             //--------------------------------------------------------------------------------
+           
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             //Config API to use static file (example: our product images)
             app.UseStaticFiles();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 
