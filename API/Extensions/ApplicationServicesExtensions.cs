@@ -31,6 +31,9 @@ namespace API.Extensions
 
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
 
+            //Customer basket function
+            services.AddScoped<IBasketRepository, BasketRepository>();
+
             services.Configure<ApiBehaviorOptions>(options => 
             {
                 options.InvalidModelStateResponseFactory = actionContext =>
