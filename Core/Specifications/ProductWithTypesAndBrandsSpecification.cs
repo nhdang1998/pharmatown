@@ -1,11 +1,10 @@
-using System;
-using System.Linq.Expressions;
 using Core.Entities;
 
 namespace Core.Specifications
 {
     public class ProductWithTypesAndBrandsSpecification : BaseSpecification<Product>
     {
+        //Searching
         public ProductWithTypesAndBrandsSpecification(ProductSpecParams productParams)
             : base(x => 
                 (string.IsNullOrEmpty(productParams.Search) || x.Name.ToLower().Contains(productParams.Search)) &&
@@ -20,6 +19,7 @@ namespace Core.Specifications
 
             ApplyPaging(productParams.PageSize * (productParams.PageIndex - 1), productParams.PageSize);
 
+            //Sorting products
             if(!string.IsNullOrEmpty(productParams.Sort))
             {
                 switch(productParams.Sort)

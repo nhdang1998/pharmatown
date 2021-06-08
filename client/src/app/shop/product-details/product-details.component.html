@@ -8,10 +8,17 @@
             <h3>{{product.name}}</h3>
             <p style="font-size: 2em">{{product.price | currency}}</p>
             <div class="d-flex justify-content-start align-items-center">
-                <i class="fa fa-minus-circle text-warning mr-2" style="cursor: pointer; font-size: 2em;"></i>
-                <span class="fontweight-bold" style="font-size: 1.5em;">2</span>
-                <i class="fa fa-plus-circle text-warning mx-2" style="cursor: pointer; font-size: 2em;"></i>
-                <button class="btn btn-outline-secondary btn-lg ml-4">Add to card</button>
+
+                <!-- Click to decrement item in basket -->
+                <i (click)="decrementQuantity()" class="fa fa-minus-circle text-warning mr-2" style="cursor: pointer; font-size: 2em;"></i>
+                <span class="fontweight-bold" style="font-size: 1.5em;">{{quantity}}</span>
+
+                <!-- Click to increment item in basket -->
+                <i (click)="incrementQuantity()" class="fa fa-plus-circle text-warning mx-2" style="cursor: pointer; font-size: 2em;"></i>
+                
+                <!-- Click to add number of items into basket -->
+                <button (click)="addItemToBasket()" class="btn btn-outline-primay btn-lg ml-4">Add to card</button>
+            
             </div>
         </div>
         <div class="row mt-5">
