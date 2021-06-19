@@ -1,5 +1,6 @@
 using API.Extensions;
 using API.Helper;
+using API.Helpers;
 using API.Middleware;
 using Infrastructure.Data;
 using Infrastructure.Identity;
@@ -83,7 +84,7 @@ namespace API
             app.UseAuthorization();
 
             //Use swagger middleware from SwagerServiceExtension
-            app.UseSwaggerDocumentation();
+            app.UseSwaggerDocumention();
 
             app.UseEndpoints(endpoints =>
             {
