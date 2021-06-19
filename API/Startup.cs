@@ -1,6 +1,5 @@
 using API.Extensions;
 using API.Helper;
-using API.Helpers;
 using API.Middleware;
 using Infrastructure.Data;
 using Infrastructure.Identity;

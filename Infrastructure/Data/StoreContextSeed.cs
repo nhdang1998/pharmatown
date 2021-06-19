@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Core.Entities;
+using Core.Entities.OrderAggregate;
 using Microsoft.Extensions.Logging;
 
 namespace Infrastructure.Data
@@ -15,29 +16,31 @@ namespace Infrastructure.Data
         {
             try
             {
-                if (!context.ProductBrand.Any())
+                if (!context.ProductBrands.Any())
                 {
-                    var brandsData = File.ReadAllText("../Infrastructure/Data/SeedData/brands.json");
+                    var brandsData =
+                        File.ReadAllText("../Infrastructure/Data/SeedData/brands.json");
 
                     var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
 
                     foreach (var item in brands)
                     {
-                        context.ProductBrand.Add(item);
+                        context.ProductBrands.Add(item);
                     }
 
                     await context.SaveChangesAsync();
                 }
 
-                if (!context.ProductType.Any())
+                if (!context.ProductTypes.Any())
                 {
-                    var typesData = File.ReadAllText("../Infrastructure/Data/SeedData/types.json");
+                    var typesData =
+                        File.ReadAllText("../Infrastructure/Data/SeedData/types.json");
 
                     var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
 
                     foreach (var item in types)
                     {
-                        context.ProductType.Add(item);
+                        context.ProductTypes.Add(item);
                     }
 
                     await context.SaveChangesAsync();
@@ -45,7 +48,8 @@ namespace Infrastructure.Data
 
                 if (!context.Products.Any())
                 {
-                    var productsData = File.ReadAllText("../Infrastructure/Data/SeedData/products.json");
+                    var productsData =
+                        File.ReadAllText("../Infrastructure/Data/SeedData/products.json");
 
                     var products = JsonSerializer.Deserialize<List<Product>>(productsData);
 
@@ -56,8 +60,22 @@ namespace Infrastructure.Data
 
                     await context.SaveChangesAsync();
                 }
-            }
 
+                if (!context.DeliveryMethods.Any())
+                {
+                    var dmData =
+                        File.ReadAllText("../Infrastructure/Data/SeedData/delivery.json");
+
+                    var methods = JsonSerializer.Deserialize<List<DeliveryMethod>>(dmData);
+
+                    foreach (var item in methods)
+                    {
+                        context.DeliveryMethods.Add(item);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
+            }
             catch (Exception ex)
             {
                 var logger = loggerFactory.CreateLogger<StoreContextSeed>();
