@@ -2,6 +2,7 @@ using System.Linq;
 using API.Errors;
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -11,7 +12,9 @@ namespace API.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
-            //Inject repository and interface to CONTROLLER
+            services.AddScoped<ITokenService,TokenService>();
+
+//Inject repository and interface to CONTROLLER
 //-------------------------------------------------------------------------------------------------
 //   There are 3 options:
 
